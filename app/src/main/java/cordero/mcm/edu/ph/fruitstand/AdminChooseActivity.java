@@ -23,7 +23,7 @@ public class AdminChooseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent1 = new Intent(getApplicationContext(), SummaryActivity.class);
+                        Intent intent1 = new Intent(getApplicationContext(), SupplierActivity.class);
                         startActivity(intent1);
                     }
                 }
@@ -33,7 +33,7 @@ public class AdminChooseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent2 = new Intent(getApplicationContext(), SummaryActivity.class);
+                        Intent intent2 = new Intent(getApplicationContext(), CustomerActivity.class);
                         startActivity(intent2);
                     }
                 }
@@ -42,7 +42,7 @@ public class AdminChooseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent3 = new Intent(getApplicationContext(), SummaryActivity.class);
+                        Intent intent3 = new Intent(getApplicationContext(), DeliveryActivity.class);
                         startActivity(intent3);
                     }
                 }
@@ -52,7 +52,7 @@ public class AdminChooseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent4 = new Intent(getApplicationContext(), SummaryActivity.class);
+                        Intent intent4 = new Intent(getApplicationContext(), FruitActivity.class);
                         startActivity(intent4);
                     }
                 }

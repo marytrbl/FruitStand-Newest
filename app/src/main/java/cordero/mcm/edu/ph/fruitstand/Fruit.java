@@ -3,9 +3,9 @@ package cordero.mcm.edu.ph.fruitstand;
 public class Fruit {
 
     private String fruitType;
-    private int fruitPrice;
+    private double fruitPrice;
 
-    public Fruit(String fruitType, int fruitPrice){
+    public Fruit(String fruitType, double fruitPrice){
         this.fruitType = fruitType;
         this.fruitPrice = fruitPrice;
     }
@@ -16,10 +16,10 @@ public class Fruit {
     public String getFruitType(){
         return fruitType;
     }
-    public void setFruitPrice(int fruitPrice){
+    public void setFruitPrice(double fruitPrice){
         this.fruitPrice = fruitPrice;
     }
-    public int getFruitPrice(){
+    public double getFruitPrice(){
         return fruitPrice;
     }
 }
