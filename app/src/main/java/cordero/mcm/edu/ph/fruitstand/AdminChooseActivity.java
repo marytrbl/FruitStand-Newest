@@ -52,7 +52,7 @@ public class AdminChooseActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent4 = new Intent(getApplicationContext(), FruitActivity.class);
+                        Intent intent4 = new Intent(getApplicationContext(), CustomerActivity.class);
                         startActivity(intent4);
                     }
                 }
